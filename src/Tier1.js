@@ -32,7 +32,7 @@ export default class Tier1 extends Component {
         tier3ColorOne: getReducedColor(newColor),
         tier3ColorTwo: getReducedColor(newColor)
       })
-    } else if (e.target.className === 'tier3' && e.target.parentElement.id === "one"){
+    } else if(e.target.className === 'tier3' && e.target.parentElement.id === "one"){
 
       let newColor = getRandomColor()
       this.setState({
